@@ -1,0 +1,5 @@
+1. In the first step we are going to make a simple express server
+2. secondly we are going to use multer intially in nodejs course what we are doing is using diskStorage or memoryStogare , then choosing filter and all but for this example we are simly going to add the multer with a simple destination
+3. when working with .single multer.single then we are going to specify the file name which we are taking as input for example here I put the name "photo" so when this is like a schema value for the file upload.
+4. MimeType is important as it tell us what type of file it is actually
+5. multer take two things to start with first is storage and second is fileFilter and the new thing we learned here is about limit we can limit our filesize using limits so limits take this filesSize thing and also if I want to specify how many files i have to add then i will say files and put number there
